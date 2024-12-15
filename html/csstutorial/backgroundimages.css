@@ -1,0 +1,14 @@
+body{
+    background-image: url(d6kbht1-d8606d57-2888-4b5e-9c1c-fe624eaa1212.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+h1{
+    color: hsla(0, 0%, 100%, 0.666);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.666);
+}

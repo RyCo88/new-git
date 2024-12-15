@@ -1,0 +1,28 @@
+#container{
+    border: 2px solid;
+}
+/* descendent = highlights all paragraphs within div section. You do this using a space
+    #container p{
+    background-color: hsl(60, 78%, 56%);
+}
+*/
+
+/* child = highlights the "children" of the element you are working within and it's the direct elements within that element. 
+if another block element is added to the working element only the ones before the new element will be selected
+    all children are descendents but not all descendents are children
+#container > p{
+    background-color: hsl(60, 78%, 56%);
+}
+*/
+
+/* general sibling = highlights elements that are "general siblings" outside of your working container/element
+    both are considered children of the document
+#container ~ p{
+    background-color: hsl(60, 78%, 56%);
+}
+*/
+
+/* adjacent sibling = selects the next direct sibling but not all siblings*/
+#container + p{
+    background-color: hsl(60, 78%, 56%);
+}

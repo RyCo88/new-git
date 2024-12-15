@@ -1,0 +1,25 @@
+div{
+    background-color: hsl(0, 70%, 56%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+span{
+    background-color: hsl(224, 100%, 72%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+/*
+display: block
+    creates a block for a span element
+display: inline-block
+    creates a block element inline with other elements
+display: none
+    acts as if the element is not there
+display: inline
+    makes elements inline
+visibility: hidden
+    treats the element as if it's still there but will not show up
+*/

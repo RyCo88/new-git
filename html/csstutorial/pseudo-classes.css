@@ -1,0 +1,38 @@
+a:link{ /* controls the link pseudo-class */
+    color: hsl(224, 100%, 65%);
+}
+a:hover{ /* controls the hover pseudo-class, applies these stylings when you hover over the target element */
+    color: hsl(224, 100%, 77%);
+    font-size: 1.1em;
+}
+a:active{ /* changes when you're holding down the cursor over an element */
+    font-size: 1.1em;
+    color: hsl(240, 100%, 61%);
+}
+a:visited{/* when the link is in the visited state you can change the stylings */
+    color: hsl(0, 0%, 76%);    
+}
+li:hover{
+    background-color: hsl(60, 100%, 65%);
+}
+li:not(:hover){
+    background-color: hsl(0, 0%, 69%);
+}
+li:nth-child(){ /* This will select any specified "child element" in the parentheses
+                        In this case we can type in 1-9 to select individual items
+                        We can also type even or odd to select the corresponding elements
+                        We can also specify any nth element so every 3rd you'd write 3n in the parentheses
+                            Within this you can specify where you'd like to start
+                                Starting at the beginning would be written 3n+1, starting with the 2nd element would be 3n+2 */
+    background-color: rgb(255, 255, 118);
+}
+
+#greeting p{ /* Selects paragraph element within greeting class */
+    background-color: hsl(240, 96%, 79%);
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{ /* When the class is hovered over the paragraph element that was set to none will now appear as a bloack element */
+    display: block;
+}

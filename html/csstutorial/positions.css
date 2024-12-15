@@ -1,0 +1,54 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(226, 100%, 62%);
+    position: sticky;
+    top: 0px
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 65%, 58%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+/*
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+this will move the element to the relative position so it will add 100 pixels above and 100 pixels to the left
+    another way to think about this is moving the element down 100 pixels and right 100 pixels
+        you can use negative pixels as well relative to it's position
+
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+this will anchor the element to a specific part of the viewport
+    in this case we are attaching it to the right and bottom side of the viewport at the absolute edge with 0px
+        one callout for this woule be a space reserved for advertising
+            my thought is for potential social links and contact info
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 65%, 58%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+this is an example of box 2, it is inside the box 1 element
+    using absolute it will maintain the specified area anchored inside it's "ancestor" element in this case it's box 1 so wherever we move box 1 box 2 will maintain it's specified position within box 1 wherever that may be
+
+    position: sticky;
+    top: 0px
+This will place the element in the specified area until we scroll past it
+
+    position: static;
+This is the default position
+
+*/

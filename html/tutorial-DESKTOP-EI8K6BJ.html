@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="images/ryanconqueso.png">
+        <title>My first website</title>
+    </head>
+    <body>
+        <h1>This is an h1 heading</h1>
+        <h2>This is an h2 heading</h2>
+        <h3>This is an h3 heading</h3>
+        <h4>This is an h4 heading</h4>
+        <h5>This is an h5 heading</h5>
+        <hr> <!--horizontal rule <hr> adds a horizontal line across the screen-->
+    <br>
+        <a href="https://www.google.com/"
+        target="_blank"
+        title="Goes to google.">
+            click me
+        </a>
+
+    <br>
+
+        <a href="lyrics.html">
+        song lyrics
+        </a>
+    <br>
+        <a href="mailto:test@fake.com">
+        email me
+        </a>
+    <br>
+        <h1>This is a cute dog</h1>
+            <a href="https://en.wikipedia.org/wiki/Dog" target="_blank">
+            <img src="images/ranger.jpg"
+            alt="This is a picture of my dog"
+            height="200"> <!--alt= will read in a screen reader-->
+            </a>
+    <br>
+        <img src="images/dogchillin.gif"
+        height="200"
+        alt="dog in glasses in a pool gif">
+        <h3>woof woof!</h3>
+        <p>The View From Here - AFI</p>
+        <audio controls loop> <!--can add autoplay after controls to auto play song on webpage load--> <!--copying the controls on default before adding video <audio controls autoplay muted loop>-->
+            <source src="music/AFI - The View From Here.mp3" type="audio/mp3">
+            <source src="music/AFI - The View From Here.wav" type="audio/wav">
+        </audio>
+    <br>
+        <p>Transference - AFI</p>
+        <audio controls>
+            <source src="music/AFI - Transference.mp3" type="audio/mp3">
+            <source src="music/AFI - Transference.wav" type="audio/wav">
+        </audio>
+    <br>
+        <p>Ether - AFI</p>
+        <audio controls>
+            <source src="music/1-02 Ether.mp3" type="audio/mp3">
+            <source src="music/1-02 Ether.wav" type="audio/wav">
+        </audio>
+    <br>
+        <a target="_blank" href="https://en.wikipedia.org/wiki/Doom_(franchise)"> <!--_blank opens links in a new tab-->
+        <video width="500" controls><!--can add autoplay, muted, and loop to the video as well-->
+            <source src="videos/DoomClip.mp4" type="video/mp4">
+            <source src="videos/DoomClip.webm" type="video/webm">
+        </video>
+        </a>
+
+        <p> <!--use <pre></pre> to use the formatting between the tags, such as line breaks without using <br>-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Iste nisi veniam perferendis, 
+        et ipsa quasi aspernatur sint sequi ex in architecto, 
+        vero accusamus neque iusto doloremque dolores saepe recusandae autem.
+        </p>
+
+        <p>This is normal text</p>
+        <p>This is <b>bold</b> text</p>
+        <p>This is <i>italic</i> text</p>
+        <p>This is <u>underlined</u> text</p>
+        <p>This is <del>deleted</del> text</p>
+        <p>This is <big>big</big> text</p>
+        <p>This is <small>small</small> text</p>
+        <p>This is <sub>subscript</sub> text</p>
+        <p>This is <sup>superscript</sup> text</p>
+        <p>This is <tt>monospaced</tt> text</p>
+        <p>This is <mark style="background-color: lightgreen;">highlighted</mark> text</p> <!--the default for <mark> color is yellow changing the style allows to change color-->
+
+        <!-- GROUP TOGETHER HTML -->
+        <!-- <span> inline container to group elements for styling purposes -->
+            <!-- the <span> container will only change what is contained in the tags -->
+        <!-- <div> block container to group elements for styling purposes -->
+            <!-- the <div> container will change the whole block(span of page) that the code is contained in -->
+                <!-- if you add a <div tag in the middle of a pre-existing section a new block level element (break) will be added to where the <div> starts -->
+
+        <h1><span style="background-color: tomato;">This is a span title</span></h1>
+        <h1><div style="background-color: cyan;">This is a div title</div></h1>
+        
+        <p><span style="background-color: tomato;">This is a span sentence.</span></p>
+        <p><div style="background-color: cyan;">This is a div sentence.</div></p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span style="background-color: tomato;">Aut ducimus nostrum modi eaque eligendi, consequatur molestias ex et doloribus tenetur! Sapiente neque quia aperiam, nemo dolores incidunt eaque corporis. Architecto?</span></p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: cyan;">Officia ea adipisci tempora. Sit quod recusandae cumque distinctio labore, aspernatur consectetur, atque, iste consequatur iure laborum dolor rerum quas eveniet. Cum.</div></p>
+    
+        <!-- Unordered List-->
+        <h4>Groceries</h4>
+        <ul>
+            <li>milk</li>
+            <li>eggs</li>
+            <li>bread</li>
+            <li>coffee supplies</li>
+            <ul>
+                <li>coffee beans</li>
+                <li>creamer</li>
+                <li>sugar</li>
+            </ul>
+        </ul>
+
+        <!-- Ordered List -->
+        <h4>To-do List</h4>
+        <ol>
+            <li>eat breakfast</li>
+            <li>go to class</li>
+            <li>walk dog</li>
+            <li>go to work</li>
+        </ol>
+    
+       <!-- Description List --> 
+       <h4>Mythical Creatures</h4>
+       <dl style="background-color: lightgreen; border: 2px solid;">
+        <dt>Dragon</dt>
+            <dd>a mythical monster resembling a giant reptile, sometimes shown as having wings.</dd>
+        <dt>Phoenix</dt>
+            <dd>The phoenix is an immortal bird that cyclically regenerates or is otherwise born again.</dd>
+        <dt>Vampire</dt>
+            <dd>a corpse supposed, in European folklore, to leave its grave at night to drink the blood of the living by biting their necks with long pointed canine teeth.</dd>
+        <dt>Werewolf</dt>
+            <dd>a person who changes for periods of time into a wolf, typically when there is a full moon.</dd>
+       </dl>
+
+       <h3>Store Hours</h3>
+
+       <table border="1" style="background-color: black;">
+        <tr align="center" style="background-color: lightblue;">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        
+        <tr align="center" style="background-color: aliceblue;">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+        </tr>
+       </table>
+
+       <!--<a href="page2.html">-->
+       <button onclick="dosomething()" style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">click me</button>
+        <!--</a>-->
+        <p id="greeting">Hello</p>
+        <script>
+            function dosomething(){
+                document.getElementById("greeting").innerHTML = "Goodbye"
+            }
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,33 @@
+#black background and other planets
+#60 orangeorange 20 gray 40 red 30 green size
+#100 80 90 distance
+
+from turtle import *
+speed(0)
+bgcolor('black')
+color('orange')
+begin_fill()
+circle(60)
+end_fill()
+penup()
+forward(100)
+color('gray')
+pendown()
+begin_fill()
+circle(20)
+end_fill()
+penup()
+forward(80)
+color('red')
+pendown()
+begin_fill()
+circle(40)
+end_fill()
+penup()
+forward(90)
+color('green')
+pendown()
+begin_fill()
+circle(30)
+end_fill()
+done()

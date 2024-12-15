@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: grey;
+    height: 100vh;
+}
+.box{
+    background-color: white;
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-height: 50%;
+}
+
+/*
+using *{} will apply to all elements
+    using box-sizing: border-box 
+        we can apply float elements that will disregard the border and padding settings of the elements.
+            i.e. having 2 div elements that are set to 50% width since the border adds 2px of padding it inherently is larger than 50% with the added border pixels
+using max-width: you can set a maximum size for elements regardless of previous declarations
+using min-width: like max width you can set a size for elements regardless of previous declarations but this time it will be required to at least be the size required
+    similar rules apply for max-height/min-height
+
+100vh is 100% viewport height so it will take up all available space
+*/

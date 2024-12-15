@@ -1,0 +1,22 @@
+div{
+    border: 2px solid;
+    height: 75px;
+    width: 200px;
+    overflow: auto;
+}
+/*
+when working within an area that has a defined width/height or is a block element
+if the content cannot be contained in that block we have option on how to handle it
+
+overflow: visible
+    all the content will remain visible even if it spills into other space
+overflow: hidden
+    the content that is overflowing will be hidden, but if you were to select it, it would still register
+overflow: clip
+    used in conjunction with overflow-clip-margin: 
+        you can determine how much of the content is displayed past the defined parameter
+overflow: scroll
+    will put a horizontal and vertical scroll bar on each side of the block element
+overflow: aucto
+    will automatically put a scroll bar when needed
+*/

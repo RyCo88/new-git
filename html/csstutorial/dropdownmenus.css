@@ -1,0 +1,32 @@
+.dropdown{ /* limit the space for the element to the block itself */
+    display: inline-block;
+}
+.dropdown button{ /* create the button */
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{ /* create the elements within the menu */
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{ /* create a box around the elements within the menu, hide the element */
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.81);
+}
+.dropdown:hover .content{ /* while hovering over the button display the content box we hid */
+    display: block;
+}
+.dropdown:hover button{ /* change the color of the button when we hover over it */
+    background-color: hsl(0, 0%, 70%);
+}
+.dropdown a:hover{ /* change the color of the elements as we hover over them */
+    background-color: hsl(0, 0%, 90%);
+}
